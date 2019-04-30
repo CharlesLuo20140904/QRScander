@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ScanViewController.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+}
+
+
+- (IBAction)clickScanBtn:(UIButton *)sender {
+    ScanViewController *vc = [[ScanViewController alloc] init];
+    vc.resultBlock = ^(NSString *message) {
+        
+    };
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

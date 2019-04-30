@@ -15,6 +15,15 @@
 		AB5E4C632277D86B00094DAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5E4C622277D86B00094DAD /* main.m */; };
 		AB5E4C6D2277D86B00094DAD /* QRScanderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5E4C6C2277D86B00094DAD /* QRScanderTests.m */; };
 		AB5E4C782277D86B00094DAD /* QRScanderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5E4C772277D86B00094DAD /* QRScanderUITests.m */; };
+		AB5E4C922277D88E00094DAD /* scanLine2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB5E4C892277D88E00094DAD /* scanLine2@2x.png */; };
+		AB5E4C932277D88E00094DAD /* scanLine2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB5E4C8A2277D88E00094DAD /* scanLine2@3x.png */; };
+		AB5E4C942277D88E00094DAD /* scanscanBg2.png in Resources */ = {isa = PBXBuildFile; fileRef = AB5E4C8B2277D88E00094DAD /* scanscanBg2.png */; };
+		AB5E4C952277D88E00094DAD /* tip.png in Resources */ = {isa = PBXBuildFile; fileRef = AB5E4C8C2277D88E00094DAD /* tip.png */; };
+		AB5E4C962277D88E00094DAD /* tip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB5E4C8D2277D88E00094DAD /* tip@2x.png */; };
+		AB5E4C972277D88E00094DAD /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5E4C8E2277D88E00094DAD /* ScanViewController.m */; };
+		AB5E4C982277D88E00094DAD /* CIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5E4C8F2277D88E00094DAD /* CIImage+Extension.m */; };
+		AB5E4C992277D88E00094DAD /* CreatQCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5E4C902277D88E00094DAD /* CreatQCodeViewController.m */; };
+		AB5E4CA12277DC7C00094DAD /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5E4CA02277DC7C00094DAD /* images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,18 @@
 		AB5E4C732277D86B00094DAD /* QRScanderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRScanderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5E4C772277D86B00094DAD /* QRScanderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRScanderUITests.m; sourceTree = "<group>"; };
 		AB5E4C792277D86B00094DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB5E4C862277D88E00094DAD /* CreatQCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatQCodeViewController.h; sourceTree = "<group>"; };
+		AB5E4C872277D88E00094DAD /* CIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIImage+Extension.h"; sourceTree = "<group>"; };
+		AB5E4C892277D88E00094DAD /* scanLine2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanLine2@2x.png"; sourceTree = "<group>"; };
+		AB5E4C8A2277D88E00094DAD /* scanLine2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanLine2@3x.png"; sourceTree = "<group>"; };
+		AB5E4C8B2277D88E00094DAD /* scanscanBg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanscanBg2.png; sourceTree = "<group>"; };
+		AB5E4C8C2277D88E00094DAD /* tip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tip.png; sourceTree = "<group>"; };
+		AB5E4C8D2277D88E00094DAD /* tip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tip@2x.png"; sourceTree = "<group>"; };
+		AB5E4C8E2277D88E00094DAD /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		AB5E4C8F2277D88E00094DAD /* CIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIImage+Extension.m"; sourceTree = "<group>"; };
+		AB5E4C902277D88E00094DAD /* CreatQCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatQCodeViewController.m; sourceTree = "<group>"; };
+		AB5E4C912277D88E00094DAD /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		AB5E4CA02277DC7C00094DAD /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +122,7 @@
 		AB5E4C522277D86A00094DAD /* QRScander */ = {
 			isa = PBXGroup;
 			children = (
+				AB5E4C852277D88E00094DAD /* QRCode */,
 				AB5E4C532277D86A00094DAD /* AppDelegate.h */,
 				AB5E4C542277D86A00094DAD /* AppDelegate.m */,
 				AB5E4C562277D86A00094DAD /* ViewController.h */,
@@ -130,6 +152,33 @@
 				AB5E4C792277D86B00094DAD /* Info.plist */,
 			);
 			path = QRScanderUITests;
+			sourceTree = "<group>";
+		};
+		AB5E4C852277D88E00094DAD /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				AB5E4C862277D88E00094DAD /* CreatQCodeViewController.h */,
+				AB5E4C872277D88E00094DAD /* CIImage+Extension.h */,
+				AB5E4C882277D88E00094DAD /* imagess */,
+				AB5E4C8E2277D88E00094DAD /* ScanViewController.m */,
+				AB5E4C8F2277D88E00094DAD /* CIImage+Extension.m */,
+				AB5E4C902277D88E00094DAD /* CreatQCodeViewController.m */,
+				AB5E4C912277D88E00094DAD /* ScanViewController.h */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		AB5E4C882277D88E00094DAD /* imagess */ = {
+			isa = PBXGroup;
+			children = (
+				AB5E4C892277D88E00094DAD /* scanLine2@2x.png */,
+				AB5E4C8A2277D88E00094DAD /* scanLine2@3x.png */,
+				AB5E4C8B2277D88E00094DAD /* scanscanBg2.png */,
+				AB5E4C8C2277D88E00094DAD /* tip.png */,
+				AB5E4C8D2277D88E00094DAD /* tip@2x.png */,
+				AB5E4CA02277DC7C00094DAD /* images.xcassets */,
+			);
+			path = imagess;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +284,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5E4C922277D88E00094DAD /* scanLine2@2x.png in Resources */,
+				AB5E4C932277D88E00094DAD /* scanLine2@3x.png in Resources */,
 				AB5E4C602277D86B00094DAD /* LaunchScreen.storyboard in Resources */,
 				AB5E4C5D2277D86B00094DAD /* Assets.xcassets in Resources */,
+				AB5E4C962277D88E00094DAD /* tip@2x.png in Resources */,
 				AB5E4C5B2277D86A00094DAD /* Main.storyboard in Resources */,
+				AB5E4CA12277DC7C00094DAD /* images.xcassets in Resources */,
+				AB5E4C942277D88E00094DAD /* scanscanBg2.png in Resources */,
+				AB5E4C952277D88E00094DAD /* tip.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +319,10 @@
 			files = (
 				AB5E4C582277D86A00094DAD /* ViewController.m in Sources */,
 				AB5E4C632277D86B00094DAD /* main.m in Sources */,
+				AB5E4C982277D88E00094DAD /* CIImage+Extension.m in Sources */,
 				AB5E4C552277D86A00094DAD /* AppDelegate.m in Sources */,
+				AB5E4C972277D88E00094DAD /* ScanViewController.m in Sources */,
+				AB5E4C992277D88E00094DAD /* CreatQCodeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
